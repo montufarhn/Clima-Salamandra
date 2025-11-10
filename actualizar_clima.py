@@ -1,10 +1,9 @@
 import requests
 import json
 from datetime import datetime
+from config import API_KEY # Importar la API Key desde config.py
 
 # --- CONFIGURACIÓN ---
-# ¡IMPORTANTE! Reemplaza 'TU_API_KEY_AQUI' con tu clave de OpenWeatherMap.
-API_KEY = '7c48b9eb0613e79b86fff1f5e08f59b3' 
 # Ciudad de la que quieres obtener el clima. Puedes cambiarla.
 CIUDAD = 'El Progreso, HN' 
 # Idioma de la descripción del clima (ej. 'es' para español, 'en' para inglés).
